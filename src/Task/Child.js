@@ -11,12 +11,12 @@ export class Child extends Component {
   render() {
     let mobile=this.state.hr;
      let asc=()=>{
-        let ananth=mobile.sort((a,b)=> a.price - b.price);
-        this.setState({hr:ananth})
+        let linga=mobile.sort((a,b)=> a.price - b.price);
+        this.setState({hr:linga})
     }
     let dec=()=>{
-       let ananth=mobile.sort((a,b)=> a.price - b.price);
-       this.setState({hr:ananth.reverse()})
+       let linga=mobile.sort((a,b)=> a.price - b.price);
+       this.setState({hr:linga.reverse()})
    }
    let isPurchased=()=>{    
     let purchased=mobile.filter((a)=> a.isPurchased===true);
